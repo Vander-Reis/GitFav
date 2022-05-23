@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #2F2F33;
+    --button-color: #065E7C;
+    --thead-color: #092D38;
+    --tbody-color: ##4A808C;
+    --bg-color-secondary: #06161B80;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--bg-color);
+    font-size: 1.6rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page {
+    max-width: 1120px;
+    margin: auto;
+    padding-top: 11.5rem;
+    padding-bottom: 11.5rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8.7rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+header input {
+    width: 46.2rem;
+    height: 4.8rem;
+    border-radius: .8rem;
+    background: #06181C;
+    color: #FFFFFF;
+    padding: 1.6rem;
+    border: none;
+}
+
+header .search-github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    width: 17rem;
+    height: 4.8rem;
+    border-radius: .8rem;
+    background: var(--button-color);
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    transition: all 600ms;
+
+}
+
+header .search-github:hover, .search-github:hover svg path{
+    background: #FFFFFF;
+    color: var(--button-color);
+    fill: var(--button-color);
+}
+
+table {
+    width: 100%;
+    border: 1px solid #4A808C;
+    
+    overflow: hidden;
+    
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+table thead {
+    background: var(--thead-color);
+    height: 6.4rem;
+}
+
+table th {
+    text-align: left;
+    padding-left: 4rem;
+}
+
+table tbody {
+   height: 10.4rem;
+   position: relative;
+   
+}
+
+table tr {
+    
+    border-bottom: 1px solid #4A808C;
+}
+
+table td {
+    padding: 2.4rem 4rem;
+    color: #E1E1E6;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    
+}
+
+table tr:nth-child(odd) {
+    background:  var(--tbody-color);
+}
+
+table tr:nth-child(even) {
+    background: var(--bg-color-secondary);
+}
+
+table td.users{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+table td.users a p {
+    color: #E1E1E6;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+table td.users a span {
+    color: #E1E1E6;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+td.users img {
+    width: 5rem;
+    height: 5rem;
+
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.remove {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    color: #F75A68;
+    border: none;
+    background: transparent;
+}
+
+tfoot {
+    display: none;
+}
+
+
+.not-favorited {
+    display: contents;
+    height: 40rem;
+}
+
+.not-favorited div {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    margin-bottom: 17rem;
+    justify-content: center;
+
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 2.5rem;
+
+    color: #4E5455;
+}
+
+
+
