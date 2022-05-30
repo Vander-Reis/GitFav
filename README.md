@@ -36,7 +36,7 @@ $ git clone https://github.com/Vander-Reis/GitFav
 ```
 
 ## Contact
-<img align="left" src="https://avatars.githubusercontent.com/Vander Reis?size=100">
+<img align="left" src="https://avatars.githubusercontent.com/Vander-Reis?size=100">
 
 Made with ❤️ by [Vander Reis](https://github.com/Vander-Reis), get in touch!
 
